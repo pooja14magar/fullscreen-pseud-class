@@ -1,0 +1,19 @@
+body{
+    font-family: Arial;
+    font-size: 16px;
+}
+#box{
+    background-color: lightblue;
+    width: 300px;
+    height: 200px;
+}
+#box:fullscreen{
+    background-color: lightcoral;
+    font-size: 40px;
+}
+#box:fullscreen p{
+    color: aquamarine;
+}
+#box:not(:fullscreen) p{
+    color: brown;
+}

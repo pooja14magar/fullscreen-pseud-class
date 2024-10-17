@@ -1,0 +1,24 @@
+#parent{
+    display: flex;
+    border: 1px solid black;
+
+}
+#parent > div {
+    border: 1px solid black;
+}
+@media(orientation:landscape){
+    body{
+        background-color: pink;
+    }
+    #parent{
+        flex-direction: row;
+    }
+}
+@media(orientation: portrait){
+    body{
+        background-color: lightblue;
+    }
+    #parent{
+        flex-direction: column;
+    }
+}
